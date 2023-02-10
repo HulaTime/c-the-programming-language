@@ -4,7 +4,4 @@ project(c_the_programming_language C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(c_the_programming_language
-        hello-world.c)
-
-add_executable(poop
-        fahr-celsius-table.c)
+        hello-world.c chapter-1/exercise-1.3.c fahr-celsius-table.c chapter-1/exercise-1.4.c)
