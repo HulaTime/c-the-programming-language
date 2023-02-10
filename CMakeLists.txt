@@ -5,3 +5,6 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(c_the_programming_language
         hello-world.c)
+
+add_executable(poop
+        fahr-celsius-table.c)
